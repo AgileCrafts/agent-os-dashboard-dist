@@ -1,16 +1,23 @@
-# Agent OS Governance Dashboard — distribution
+# Cortex Rail has moved
 
-Prebuilt binaries for the **Agent OS Governance Dashboard**. This repo holds
-**only the app binary** in its Releases — the OS source lives in a separate
-private repo.
+Cortex Rail now lives at **https://github.com/AgileCrafts/cortex-rail**. Downloads, new versions and the install lines are all there.
 
-## Get the app
+## Install
 
-```bash
-npx @agilecrafts/agent-os-dashboard
+**Windows.** Paste into PowerShell:
+
+```powershell
+irm https://cortexrail.com/install.ps1 | iex
 ```
 
-Or download `dashboard.exe` from [Releases](../../releases/latest) and double-click it.
+**Linux.** Paste into a terminal:
 
-Windows only. On launch, pick your project root — the dashboard opens as its own
-app window governing that project.
+```sh
+curl -fsSL https://cortexrail.com/install | sh
+```
+
+## Already using Cortex Rail?
+
+You do not need to do anything. The app updates itself, and from version 1.18.1 on it looks for new versions in the new place by itself.
+
+This page stays only so that older copies of the app can find that update. No newer versions will appear here.
